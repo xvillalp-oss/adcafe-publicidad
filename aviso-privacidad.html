@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aviso de privacidad — adCafé Publicidad</title>
+  <meta name="description" content="Aviso de privacidad de adCafé Publicidad: cómo tratamos y protegemos tus datos personales.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blanco: #ffffff;
+      --lila: #7362AC;
+      --lila-claro: #A89BD6;
+      --lila-tinta: #584797;
+      --bruma: #F6F4FB;
+      --linea: #E8E5F1;
+      --gris: #77737F;
+      --gris-suave: #D7D3E2;
+      --negro: #17161B;
+      --display: 'Clash Display', 'Helvetica Neue', sans-serif;
+      --body: 'Satoshi', 'Helvetica Neue', sans-serif;
+      --pad: clamp(1.25rem, 4.5vw, 3rem);
+      --ease: cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: var(--body);
+      background: var(--blanco);
+      color: var(--negro);
+      font-size: 1.02rem;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    ::selection { background: var(--lila); color: #fff; }
+    a { color: inherit; }
+    :focus-visible { outline: 2px solid var(--lila); outline-offset: 3px; border-radius: 4px; }
+
+    .nav {
+      position: fixed;
+      top: 1.1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 200;
+      width: min(calc(100% - 2rem), 880px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: blur(18px) saturate(1.4);
+      -webkit-backdrop-filter: blur(18px) saturate(1.4);
+      border: 1px solid rgba(232, 229, 241, 0.9);
+      border-radius: 999px;
+      padding: 0.55rem 0.55rem 0.55rem 1.1rem;
+      box-shadow: 0 12px 40px -18px rgba(88, 71, 151, 0.35);
+    }
+    .nav__brand { display: flex; align-items: center; gap: 0.55rem; text-decoration: none; }
+    .nav__brand img { width: 34px; height: 34px; object-fit: contain; }
+    .nav__brand b { font-family: var(--display); font-weight: 600; font-size: 1.08rem; color: var(--negro); }
+    .nav__brand b em { font-style: normal; color: var(--lila); }
+    .nav .volver {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      background: var(--lila);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      border-radius: 999px;
+      padding: 0.75rem 1.5rem;
+      transition: background 0.25s;
+    }
+    .nav .volver:hover { background: var(--lila-tinta); }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: clamp(8rem, 16vh, 10rem) var(--pad) clamp(3rem, 7vh, 5rem);
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--lila-tinta);
+      background: var(--bruma);
+      border: 1px solid var(--linea);
+      border-radius: 999px;
+      padding: 0.45rem 1rem;
+      margin-bottom: 1.4rem;
+    }
+    .chip::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--lila); }
+
+    h1 {
+      font-family: var(--display);
+      font-weight: 500;
+      font-size: clamp(2.2rem, 6vw, 3.4rem);
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.8rem;
+    }
+    .fecha { color: var(--gris); font-size: 0.92rem; margin-bottom: 2.6rem; }
+
+    h2 {
+      font-family: var(--display);
+      font-weight: 500;
+      font-size: 1.45rem;
+      letter-spacing: -0.01em;
+      margin: 2.4rem 0 0.7rem;
+    }
+
+    p, li { color: var(--gris); }
+    strong { color: var(--negro); font-weight: 700; }
+    ul { padding-left: 1.3rem; margin: 0.6rem 0; }
+    li { margin-bottom: 0.35rem; }
+    main a { color: var(--lila-tinta); font-weight: 700; text-decoration: none; }
+    main a:hover { text-decoration: underline; }
+
+    .footer {
+      border-top: 1px solid var(--linea);
+      padding: 2rem var(--pad) 2.2rem;
+      text-align: center;
+    }
+    .footer p { font-size: 0.88rem; color: var(--gris); }
+    .footer__credit { margin-top: 0.5rem; font-size: 0.82rem; }
+    .footer__credit a { font-weight: 700; color: var(--lila-tinta); text-decoration: none; }
+    .footer__credit a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <header class="nav">
+    <a class="nav__brand" href="index.html" aria-label="adCafé — inicio">
+      <img src="assets/logo.png" alt="" width="34" height="34">
+      <b>ad<em>Café</em></b>
+    </a>
+    <a class="volver" href="index.html">← Volver al sitio</a>
+  </header>
+
+  <main>
+    <span class="chip">Legal</span>
+    <h1>Aviso de privacidad</h1>
+    <p class="fecha">Última actualización: julio de 2026</p>
+
+    <p><strong>adCafé Publicidad</strong> (en adelante, "adCafé"), con domicilio en Carretera México–Toluca 5454, Col. El Yaqui, Alcaldía Cuajimalpa de Morelos, C.P. 05320, Ciudad de México, es responsable del tratamiento de tus datos personales conforme al presente aviso de privacidad, en cumplimiento de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, su Reglamento y demás disposiciones aplicables.</p>
+
+    <h2>1. Datos personales que recabamos</h2>
+    <p>Recabamos los datos que nos proporcionas directamente a través del formulario de contacto de este sitio web, por correo electrónico, por teléfono o por WhatsApp:</p>
+    <ul>
+      <li>Nombre completo</li>
+      <li>Empresa u organización a la que perteneces</li>
+      <li>Correo electrónico</li>
+      <li>Teléfono de contacto (cuando decides proporcionarlo)</li>
+      <li>La información que incluyas en tu mensaje</li>
+    </ul>
+    <p>No recabamos datos personales sensibles a través de este sitio.</p>
+
+    <h2>2. Finalidades del tratamiento</h2>
+    <p>Utilizamos tus datos personales para las siguientes finalidades primarias:</p>
+    <ul>
+      <li>Atender tu solicitud de contacto, información o cotización</li>
+      <li>Dar seguimiento a la relación comercial y de servicios</li>
+      <li>Elaborar propuestas y prestar los servicios contratados</li>
+    </ul>
+    <p>De manera secundaria, y solo si no te opones a ello, podremos utilizarlos para enviarte información sobre nuestros servicios, novedades y contenidos. Puedes manifestar tu negativa a este uso en cualquier momento escribiendo a <a href="mailto:contacto@adcafepublicidad.com">contacto@adcafepublicidad.com</a>.</p>
+
+    <h2>3. Transferencias de datos</h2>
+    <p>Tus datos personales no serán vendidos, cedidos ni transferidos a terceros sin tu consentimiento, salvo en los casos previstos por la ley. Para la operación de este sitio utilizamos proveedores de servicios tecnológicos (como alojamiento web y procesamiento de formularios) que tratan los datos únicamente por cuenta de adCafé y bajo las medidas de seguridad correspondientes.</p>
+
+    <h2>4. Derechos ARCO</h2>
+    <p>Tienes derecho a <strong>Acceder</strong> a tus datos personales, <strong>Rectificarlos</strong> cuando sean inexactos, <strong>Cancelarlos</strong> cuando consideres que no se requieren para las finalidades señaladas, y <strong>Oponerte</strong> a su tratamiento (derechos ARCO), así como a revocar el consentimiento que nos hayas otorgado.</p>
+    <p>Para ejercerlos, envía tu solicitud a <a href="mailto:contacto@adcafepublicidad.com">contacto@adcafepublicidad.com</a> indicando tu nombre completo, el derecho que deseas ejercer y los medios para notificarte la respuesta. Responderemos en los plazos que establece la ley.</p>
+
+    <h2>5. Uso de cookies</h2>
+    <p>Este sitio puede utilizar cookies y tecnologías similares con fines estadísticos y de mejora de la experiencia de navegación. Puedes deshabilitarlas en cualquier momento desde la configuración de tu navegador.</p>
+
+    <h2>6. Cambios al aviso de privacidad</h2>
+    <p>adCafé podrá modificar el presente aviso de privacidad en cualquier momento para cumplir con actualizaciones legislativas o políticas internas. Cualquier cambio se publicará en esta misma página.</p>
+
+    <h2>7. Contacto</h2>
+    <p>Si tienes dudas sobre este aviso o sobre el tratamiento de tus datos personales, escríbenos a <a href="mailto:contacto@adcafepublicidad.com">contacto@adcafepublicidad.com</a> o llámanos al <a href="tel:+525555680729">55 5568 0729</a>.</p>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> adCafé Publicidad · Comunicación estratégica basada en inteligencia.</p>
+    <p class="footer__credit">Hecho por <a href="https://brotadigital.mx/" target="_blank" rel="noopener">Brota</a></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
